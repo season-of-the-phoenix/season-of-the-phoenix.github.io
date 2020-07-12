@@ -24,7 +24,9 @@ h5  {
     font-size: 1em;
     font-weight:normal;
 }
-
+hr  {
+    color: white;
+}
 body {
     background-color:rgb(19,22,26);
     margin:0;
