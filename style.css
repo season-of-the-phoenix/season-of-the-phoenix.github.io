@@ -26,6 +26,7 @@ h5  {
 }
 hr  {
     color: white;
+    padding-top: 5px 0px;
 }
 body {
     background-color:rgb(19,22,26);
