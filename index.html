@@ -123,15 +123,15 @@
                 
                 
                 <li>
-                    At the end of each strike a will spawn,            
-                                <div class="tooltip">skeleton chest
-                                <span class="tooltiptext">
-                                    Possibility to change the theme of the chests and keys.
-                                    Chests of the Nine? Taken Skeleton Chests?.
-                                </span>
-                                </div>             
-                    allowing guardians to use a Skeleton key to guarantee a
-                    drop from the strike’s unique loot pool.
+                    At the end of each strike a 
+                        <div class="tooltip">skeleton chest
+                        <span class="tooltiptext">
+                            Possibility to change the theme of the chests and
+                            keys.  Chests of the Nine? Taken Skeleton Chests?.
+                        </span>
+                        </div>             
+                    will spawn, allowing guardians to use a Skeleton key to
+                    guarantee a drop from the strike’s unique loot pool.
                 </li>
                 <li>
                     Skeleton Keys can drop from strikes/heroic strikes with a
@@ -167,7 +167,8 @@
                                 <div class="tooltip">Nightfalls
                                 <span class="tooltiptext">
                                     The Loot is now in Strikes, and Nightfall: 
-                                    The Ordeal is more unique and has its own purpose.
+                                    The Ordeal is more unique and has its own
+                                    purpose.
                                 </span>
                                 </div> 
                     and its guided games.
@@ -196,8 +197,8 @@
                         to obtain the 100k pinnacle.
                     </li>
                     <li>
-                        Master: Challanging replayability for enhancement prisms and ascendant
-                        shards.
+                        Master: Challanging replayability for enhancement
+                        prisms and ascendant shards.
                     </li>
                     <li>
                         Grandmaster: A supremely difficult challenge. For
@@ -225,11 +226,13 @@
                 </ul>
                 <li>
                     Modifiers have been split to only have one
-                    benefit/drawback, i.e. Lightswitch/Chaff instead of Blackout.
+                    benefit/drawback, i.e. Lightswitch/Chaff instead of
+                    Blackout.
                 </li>
                 <li>
-                    Modifiers are now completely random and do NOT follow the previous system
-                    of 1 singe, 1 positive and 1 negative modifier.
+                    Modifiers are now completely random and do NOT follow the
+                    previous system of 1 singe, 1 positive and 1 negative
+                    modifier.
                 </li>
                 <li>
                     Every activity with modifiers has 3 modifiers that change
@@ -387,8 +390,9 @@
                 <li>
                     We believe there are some issues that need to be addressed
                     with the Competitive(Survival) playlist. However. That is
-                    something we would have to specifically look at in greater detail.
-                    We also lack the vast amounts of statistics and data bungie has. 
+                    something we would have to specifically look at in greater
+                    detail.  We also lack the vast amounts of statistics and
+                    data bungie has. 
                 </li>
                 <li>
                     Special Ammo also needs to be investigated. We do not like
@@ -492,8 +496,8 @@
                 <li>
                     Upon reaching a certain level with a Faction players are
                     presented with an <b>Exotic Ghost</b>. This comes
-                    with a new Exotic quality ghost mod for use with our reworked
-                    Ghosts mentioned below.
+                    with a new Exotic quality ghost mod for use with our
+                    reworked Ghosts mentioned below.
                 </li>
                 <li>
                     Upon reaching a certain level with a Faction players are
@@ -806,8 +810,8 @@
                 </li>
                 <ul>
                     <li>
-                        This lost sector will re-introduce the unique Spider Wanted
-                        enemy lost sectors.
+                        This lost sector will re-introduce the unique Spider
+                        Wanted enemy lost sectors.
                     </li>
                     <li>
                         Completing this lost sector rewards players with 5
@@ -1104,8 +1108,8 @@
                 </li>
                 <li>
                     600rpm and 750rpm base stats have been adjusted to
-                    differentiate them more from their 900rpm counterparts and generally
-                    uplift them.
+                    differentiate them more from their 900rpm counterparts and
+                    generally uplift them.
                 </li>
             </ul>
             <b>Pulse Rifles</b>
@@ -1705,7 +1709,11 @@
                 <li>
                     A small icon in the top right of the Destinations screen
                     players can select to reread the weekly login messages
-                    https://i.imgur.com/9gU7jFo.jpg gg
+                    <div style="margin:auto">
+                        <img src="img/test.jpg"
+                            style="display:block;margin-left:auto;margin-right:auto;width:25%;cursor:pointer" 
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                    </div>
                 </li>
                 <li>
                     A small icon to show double/triple infamy/valor has been
@@ -1753,7 +1761,19 @@
         </div>
 
     </div>
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <div class="w3-modal-content w3-animate-zoom">
+        <img id="img01" style="width:75%;display:block;margin-left:auto;margin-right:auto;">
+      </div>
+    </div>
 </body>
+
+<script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+</script>
 
 <!-- Hover tooltip 
 <div class="tooltip">Hover over me
@@ -1770,4 +1790,12 @@
     <li>
     </li>
 </ul>
+--!>
+
+<!-- image template
+<div style="margin:auto">
+    <img src="img/test.jpg"
+        style="display:block;margin-left:auto;margin-right:auto;width:25%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
 --!>

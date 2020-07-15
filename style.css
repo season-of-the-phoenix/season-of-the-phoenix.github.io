@@ -93,3 +93,24 @@ ul li {
 .column {
   flex: 50%;
 }
+
+.w3-opacity,.w3-hover-opacity:hover{
+    opacity:0.60
+}
+
+.w3-opacity-off,.w3-hover-opacity-off:hover{
+    opacity:1
+}
+
+.w3-modal{
+    z-index:3;
+    display:none;
+    padding-top:100px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    overflow:auto;
+    background-color:rgb(0,0,0);
+    background-color:rgba(0,0,0,0.4)
+}
