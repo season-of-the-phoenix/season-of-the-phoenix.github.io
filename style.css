@@ -67,10 +67,11 @@ ul li {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 600px;
+    width: 450px;
+    display:block;
     background-color: black;
     color: #fff;
-    text-align: center;
+    text-align: left;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
